@@ -6,13 +6,15 @@
     <stroke
         android:color="#c8f542"
         android:width="20dp"
-    >
+    />
     <corners
     android:radius="5dp"
-    >
-
-
-    </corners>
-    </stroke>
+    />
+    <gradient
+        android:startColor="@color/purple_500"
+        android:centerColor="@color/purple_200"
+        android:endColor="@color/purple_700"
+        android:angle="270"
+        />
 </shape>
 
